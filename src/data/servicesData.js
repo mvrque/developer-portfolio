@@ -58,21 +58,13 @@ export const servicesData = [
     //     title: 'Data Entry', 
     //     icon: <BsClipboardData />
     // },
-    {
-        id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
-    },
+    
     // {
     //     id: 12,
     //     title: 'Audio Transcription',
     //     icon: <AiFillAudio />
     // },
-    {
-        id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
-    },
+   
 
 ]
 

@@ -11,11 +11,11 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Rock Paper Scissors Lizard Spock',
+        projectDesc: 'Little fun challenge',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/mvrque/RockPaperScissorsLizardSpock',
+        demo: 'https://mvrquerockpaperscissors.netlify.app/',
         image: one
     },
     {
