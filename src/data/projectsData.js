@@ -1,6 +1,6 @@
 import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
+import two from '../assets/svg/projects/two.jpg'
+import three from '../assets/svg/projects/three.jpg'
 import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
@@ -10,6 +10,26 @@ import eight from '../assets/svg/projects/eight.svg'
 
 export const projectsData = [
     {
+        id: 2,
+        projectName: 'NASA A Picture of a Day',
+        projectDesc: 'This project is a random NASA A Picture of a Day generator. API test.',
+        tags: ['JavaScript', 'CSS', 'HTML'],
+        code: 'https://github.com/mvrque/nasaAPOD',
+        demo: 'https://nasaspicoftheday.netlify.app/',
+        image: two
+    },
+    
+   
+    {
+        id: 3,
+        projectName: 'Cocktail Generator',
+        projectDesc: 'Random cocktail generator by keyword. API test',
+        tags: ['JavaScript', 'CSS', 'HTML'],
+        code: 'https://github.com/mvrque/cocktailAPI',
+        demo: 'https://randomcocktail.netlify.app/',
+        image: three
+    },
+    {
         id: 1,
         projectName: 'Rock Paper Scissors Lizard Spock',
         projectDesc: 'Little fun challenge',
@@ -17,24 +37,6 @@ export const projectsData = [
         code: 'https://github.com/mvrque/RockPaperScissorsLizardSpock',
         demo: 'https://mvrquerockpaperscissors.netlify.app/',
         image: one
-    },
-    {
-        id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
-    },
-    {
-        id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
     },
     {
         id: 4,

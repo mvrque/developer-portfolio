@@ -4,6 +4,6 @@ export const headerData = {
     name: 'Marko Tomik',
     title: "Junior Web Developer",
     desciption:"Located in Tallinn, Estonia ",
-    image: 'https://i.ibb.co/bWvbkLT/IMG-4378.jpg',
+    image: 'https://pbs.twimg.com/profile_images/1515070462199570439/srnJxngo_400x400.jpg'
     
 }
