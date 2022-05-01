@@ -217,8 +217,9 @@ function Contacts() {
                                 />
                             </div>
 
-                            <div className='submit-btn'>
+                            <div className='submit-btn' >
                                 <button
+                                    onClick={handleClose}
                                     type='submit'
                                     className={classes.submitBtn}
                                 >
@@ -284,6 +285,7 @@ function Contacts() {
                         <a
                             href={`mailto:${contactsData.email}`}
                             className='personal-details'
+                            
                         >
                             <div className={classes.detailsIcon}>
                                 <FiAtSign />
@@ -295,7 +297,12 @@ function Contacts() {
                         
                         <div className='personal-details'>
                             <div className={classes.detailsIcon}>
+                                <a
+                                href={`https://www.google.com/maps/place/Tallinn/@59.4713933,24.4580691,10z/data=!3m1!4b1!4m5!3m4!1s0x46929499df5616bf:0x400b36d18fc6270!8m2!3d59.4369608!4d24.7535747`} target="_blank" style={{ color: theme.tertiary }}
+                                
+                                >
                                 <HiOutlineLocationMarker />
+                                </a>
                             </div>
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.address}

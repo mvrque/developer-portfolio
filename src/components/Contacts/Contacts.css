@@ -135,6 +135,9 @@
     padding-left: 7rem;
     margin-top: 1.2rem;
 }
+.contacts-details > a {
+    color: black;
+}
 
 
 
@@ -197,6 +200,7 @@
     }
     .contacts-details {
         padding-left: 4rem;
+        
     }
     .personal-details p {
         margin-left: 1rem;

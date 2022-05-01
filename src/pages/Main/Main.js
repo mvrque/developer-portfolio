@@ -21,7 +21,7 @@ function Main() {
            
             <Services />
            
-        
+            <Experience />
             <Contacts />
             <Footer />
         </div>
