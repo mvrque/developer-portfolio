@@ -2,11 +2,14 @@
     'HTML',
     'Javascript',
     'CSS',
-    'Photoshop',
-    'Python',
+    'React',
+    'Node JS',
     'Wordpress',
     'Git',
     'Lightroom',
+    'Photoshop',
+    'Premiere Pro'
+
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
