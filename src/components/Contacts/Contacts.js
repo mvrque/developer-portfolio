@@ -1,7 +1,10 @@
 import React, { useContext, useState } from 'react';
+
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
+import emailjs from "emailjs-com";
+
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
@@ -128,6 +131,19 @@ function Contacts() {
     }));
 
     const classes = useStyles();
+    
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+    emailjs.sendForm('service_0pll1a9', 'template_5bzysxp', e.target, 'E7qNxg8OPH4_oHCDU')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      
+    }
 
     const handleContactForm = (e) => {
         e.preventDefault();
@@ -170,7 +186,7 @@ function Contacts() {
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
-                        <form onSubmit={handleContactForm}>
+                        <form onSubmit={sendEmail}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
@@ -180,7 +196,7 @@ function Contacts() {
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
-                                    name='Name'
+                                    name='name'
                                     className={`form-input ${classes.input}`}
                                 />
                             </div>
@@ -196,7 +212,7 @@ function Contacts() {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
-                                    name='Email'
+                                    name='email'
                                     className={`form-input ${classes.input}`}
                                 />
                             </div>
@@ -212,7 +228,7 @@ function Contacts() {
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     type='text'
-                                    name='Message'
+                                    name='message'
                                     className={`form-message ${classes.message}`}
                                 />
                             </div>

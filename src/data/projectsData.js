@@ -47,15 +47,7 @@ export const projectsData = [
         demo: 'https://randomcocktail.netlify.app/',
         image: three
     },
-    {
-        id: 1,
-        projectName: 'Rock Paper Scissors Lizard Spock',
-        projectDesc: 'Little fun challenge',
-        tags: ['HTML', 'CSS', 'JavaScript'],
-        code: 'https://github.com/mvrque/RockPaperScissorsLizardSpock',
-        demo: 'https://mvrquerockpaperscissors.netlify.app/',
-        image: one
-    },
+
     
 ]
 

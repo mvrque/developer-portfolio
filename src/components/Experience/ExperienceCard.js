@@ -34,7 +34,7 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
                 <div className="experience-details">
                     <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
                     <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
-                    <a style={{color: theme.tertiary80}} href="https://leonnoel.com/100devs/" target="_blank">{company}</a>
+                    <a style={{color: theme.tertiary80}} target="_blank">{company}</a>
                 </div>
             </div>
         </Fade>   
