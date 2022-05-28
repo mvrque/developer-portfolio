@@ -1,31 +1,31 @@
-import one from '../assets/svg/projects/one.svg'
+import one from '../assets/svg/projects/one.png'
 import two from '../assets/svg/projects/two.jpg'
 import three from '../assets/svg/projects/three.jpg'
 import four from '../assets/svg/projects/four.png'
 import five from '../assets/svg/projects/five.png'
 import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
+import seven from '../assets/svg/projects/seven.png'
 import eight from '../assets/svg/projects/eight.svg'
 
 
 export const projectsData = [
     {
         id: 4,
-        projectName: 'Restaurant Website Template',
-        projectDesc: 'Responsive website for your restaurant!',
+        projectName: 'Task Manager',
+        projectDesc: 'Choose a date and add your task name and description. OOP test',
         tags: ['HTML', 'CSS', 'JavaScript'],
-        code: 'https://github.com/mvrque/restoranTemplate',
-        demo: 'https://restaurantmakaroni.netlify.app/',
-        image: four
+        code: 'https://github.com/mvrque/taskManager',
+        demo: 'https://taskmanager-okram.netlify.app/#',
+        image: one
     },
     {
         id: 5,
-        projectName: 'Task Manager',
-        projectDesc: 'Simple task manager for organizing tasks.',
+        projectName: "Booklist",
+        projectDesc: 'Add your favourite books to a list. OOP test',
         tags: ['HTML', 'CSS', 'JavaScript'],
-        code: 'https://github.com/mvrque/taskManager',
-        demo: 'https://taskmanager-okram.netlify.app/',
-        image: five
+        code: 'https://github.com/mvrque/myBookList',
+        demo: 'https://mvrque-booklist.netlify.app/',
+        image: seven
     },
     {
         id: 2,
@@ -36,6 +36,17 @@ export const projectsData = [
         demo: 'https://nasaspicoftheday.netlify.app/',
         image: two
     },
+    {
+        id: 4,
+        projectName: 'Restaurant Website Template',
+        projectDesc: 'Responsive website for your restaurant!',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/mvrque/restoranTemplate',
+        demo: 'https://restaurantmakaroni.netlify.app/',
+        image: four
+    },
+    
+    
     
    
     {

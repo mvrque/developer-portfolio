@@ -235,7 +235,7 @@ function Contacts() {
 
                             <div className='submit-btn' >
                                 <button
-                                    onClick={handleClose}
+                                    onClick={handleContactForm && handleClose}
                                     type='submit'
                                     className={classes.submitBtn}
                                 >
