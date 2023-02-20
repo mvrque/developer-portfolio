@@ -11,11 +11,20 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 4,
+        projectName: 'Veterinary Clinic Website',
+        projectDesc: 'Full-stack website for veterinary clinic. Made with Node.js, express and MongoDB',
+        tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'express', 'MongoDB', ],
+        code: 'https://github.com/mvrque/taskManager',
+        demo: 'https://taskmanager-okram.netlify.app/#',
+        image: one
+    },
+    {
+        id: 4,
         projectName: 'Task Manager',
         projectDesc: 'Choose a date and add your task name and description. OOP test',
         tags: ['HTML', 'CSS', 'JavaScript'],
-        code: 'https://github.com/mvrque/taskManager',
-        demo: 'https://taskmanager-okram.netlify.app/#',
+        code: 'https://github.com/mvrque/vetClinicWebsite',
+        demo: 'https://tataritest.netlify.app/',
         image: one
     },
     {
