@@ -10,7 +10,7 @@ import eight from '../assets/svg/projects/eight.svg'
 
 export const projectsData = [
     {
-        id: 4,
+        id: 6,
         projectName: 'Veterinary Clinic Website',
         projectDesc: 'Full-stack website for veterinary clinic. Made with Node.js, express and MongoDB',
         tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'express', 'MongoDB', ],
