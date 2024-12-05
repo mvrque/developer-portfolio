@@ -14,8 +14,8 @@ export const projectsData = [
         projectName: 'Veterinary Clinic Website',
         projectDesc: 'Full-stack website for veterinary clinic. Made with Node.js, express and MongoDB',
         tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'express', 'MongoDB', ],
-        code: 'https://github.com/mvrque/taskManager',
-        demo: 'https://taskmanager-okram.netlify.app/#',
+        code: 'https://github.com/mvrque/vetClinicWebsite',
+        demo: 'https://tataritest.netlify.app/',
         image: one
     },
     {
