@@ -6,6 +6,7 @@ import five from '../assets/svg/projects/five.png'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.png'
 import eight from '../assets/svg/projects/eight.svg'
+import nine from '../assets/svg/projects/tatari.png'
 
 
 export const projectsData = [
@@ -16,7 +17,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'express', 'MongoDB', ],
         code: 'https://github.com/mvrque/vetClinicWebsite',
         demo: 'https://tataritest.netlify.app/',
-        image: one
+        image: nine
     },
     {
         id: 4,
