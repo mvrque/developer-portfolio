@@ -1,17 +1,17 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Olympic Entertainment Group',
-        jobtitle: 'Machine Technician',
-        startYear: '2024 September',
+        company: 'Estonian Aviation Academy',
+        jobtitle: 'Student',
+        startYear: '2025 September',
         endYear: 'present'
     },
     {
         id: 2,
-        company: '100Devs',
-        jobtitle: 'Software Engineer',
-        startYear: '2022 January',
-        endYear: 'present'
+        company: 'Olympic Entertainment Group',
+        jobtitle: 'Machine Technician',
+        startYear: '2024 September',
+        endYear: '2025 September'
     },
     {
         id: 3,
