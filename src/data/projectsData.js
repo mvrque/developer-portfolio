@@ -7,13 +7,23 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.png'
 import eight from '../assets/svg/projects/eight.svg'
 import nine from '../assets/svg/projects/tatari.png'
+import nine from '../assets/svg/projects/veluub.png'
 
 
 export const projectsData = [
     {
+  id: 7,
+  projectName: 'Veluub',
+  projectDesc: 'A full-stack bicycle marketplace built around trust: secure account flows, stolen bike reporting, frame-number checks, workshop booking and community features.',
+  tags: ['Node.js', 'Express', 'MongoDB', 'EJS', 'JavaScript', 'Authentication', 'Security', 'Marketplace'],
+  code: 'https://github.com/mvrque/veluub',
+  demo: 'veluub.onrender.com',
+  image: nine
+},
+    {
         id: 6,
         projectName: 'Veterinary Clinic Website',
-        projectDesc: 'Full-stack website for veterinary clinic. Made with Node.js, express and MongoDB',
+        projectDesc: 'Full-stack website for a veterinary clinic with service pages, contact flow and MongoDB-backed content management.',
         tags: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'express', 'MongoDB', ],
         code: 'https://github.com/mvrque/vetClinicWebsite',
         demo: 'https://tataritest.netlify.app/',
