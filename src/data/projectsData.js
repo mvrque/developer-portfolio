@@ -17,7 +17,7 @@ export const projectsData = [
           projectDesc: 'A full-stack bicycle marketplace built around trust: secure account flows, stolen bike reporting, frame-number checks, workshop booking and community features.',
           tags: ['Node.js', 'Express', 'MongoDB', 'EJS', 'JavaScript', 'Authentication', 'Security', 'Marketplace'],
           code: 'https://github.com/mvrque/veluub',
-          demo: 'veluub.onrender.com',
+          demo: 'https://veluub.onrender.com',
           image: ten
     },
     {
